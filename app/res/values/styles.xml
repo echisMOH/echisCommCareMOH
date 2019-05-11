@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <style name="NotificationText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="NotificationTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TopPane">
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="MiddlePane">
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="MainSidePaneLeft">
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+
+    <style name="MainSidePaneRight">
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="MainPane">
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <dimen name="entity_padding">@dimen/content_min_margin</dimen>
+    <dimen name="grid_entity_padding">3dp</dimen>
+
+    <style name="EntityItemTextView">
+        <item name="android:paddingLeft">@dimen/entity_padding</item>
+        <item name="android:paddingTop">@dimen/entity_padding</item>
+        <item name="android:paddingBottom">@dimen/entity_padding</item>
+        <item name="android:paddingRight">@dimen/entity_padding</item>
+    </style>
+
+    <style name="EntityItemImageView">
+        <item name="android:paddingLeft">@dimen/entity_item_image_margins</item>
+        <item name="android:paddingTop">@dimen/entity_item_image_margins</item>
+        <item name="android:paddingBottom">@dimen/entity_item_image_margins</item>
+        <item name="android:paddingRight">@dimen/entity_item_image_margins</item>
+    </style>
+
+    <style name="GridEntityItemTextView">
+        <item name="android:paddingLeft">@dimen/grid_entity_padding</item>
+        <item name="android:paddingTop">@dimen/grid_entity_padding</item>
+        <item name="android:paddingBottom">@dimen/grid_entity_padding</item>
+        <item name="android:paddingRight">@dimen/grid_entity_padding</item>
+    </style>
+
+    <style name="EntityItemText" parent="@android:style/TextAppearance.Large">
+    </style>
+
+    <style name="GridEntityItemText" parent="@android:style/TextAppearance.Medium">
+
+    </style>
+
+    <style name="VersionIdText">
+        <item name="android:textSize">@dimen/text_smaller</item>
+    </style>
+
+    <style name="WarningTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/cc_neutral_color</item>
+    </style>
+
+    <style name="Animation"/>
+
+    <style name="Animation.ScreenAnimations">
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <style name="ButtonBottom">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="TextInteractiveFreeFloating">
+        <item name="android:background">@drawable/info_bubble</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextInteractive">
+        <item name="android:background">@drawable/bubble</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextInteractiveProblem">
+        <item name="android:background">@drawable/bubble_danger</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="DialogBaseTheme" parent="android:Theme.Dialog"/>
+
+    <!-- Start Collect styles -->
+
+    <dimen name="select_padding">15dp</dimen>
+    <dimen name="nav_border_depth">2dp</dimen>
+    <dimen name="badge_circum_outer">22dp</dimen>
+    <dimen name="badge_circum_border">20dp</dimen>
+    <dimen name="badge_offset">-17dp</dimen>
+    <!--              badge_circum_outer + badge_offset  + border_depth
+     -->
+    <dimen name="badge_overlap">7dp</dimen>
+    <dimen name="badge_offset_side">10dp</dimen>
+
+    <!-- This is the value that needs to be used to pull the lower view back up over the badge -->
+    <dimen name="badge_overlap_offset">-5dp</dimen>
+
+
+    <style name="FloatingLabel" parent="@android:style/TextAppearance">
+        <item name="android:background">@drawable/label_floating_good</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ListViewV2">
+        <item name="android:padding">@dimen/content_start</item>
+        <item name="android:divider">@null</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="ListContentWithoutBadge">
+        <item name="android:layout_margin">@dimen/content_min_margin</item>
+        <item name="android:colorBackground">@color/cc_core_bg</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ListContentWithBadge">
+        <item name="android:layout_width">@dimen/list_content_with_space_for_badge</item>
+        <item name="android:layout_height">@dimen/list_content_with_space_for_badge</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="GridViewContentWithBadge">
+        <item name="android:layout_width">@dimen/menu_grid_icon_size</item>
+        <item name="android:layout_height">@dimen/menu_grid_icon_size_with_badge</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginTop">@dimen/content_min_margin</item>
+        <item name="android:layout_marginRight">@dimen/content_min_margin</item>
+        <item name="android:layout_marginLeft">@dimen/content_min_margin</item>
+        <item name="android:colorBackground">@color/cc_core_bg</item>
+    </style>
+
+    <style name="ListViewHeaderV2">
+        <item name="android:padding">@dimen/content_start</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/cc_light_warm_accent_text</item>
+        <item name="android:clickable">false</item>
+        <item name="android:longClickable">false</item>
+    </style>
+
+    <style name="LoginEditTextV2">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="DefaultHorizontalPadding">
+        <item name="android:paddingLeft">@dimen/content_start</item>
+        <item name="android:paddingRight">@dimen/content_start</item>
+    </style>
+
+    <style name="DefaultVerticalPadding">
+        <item name="android:paddingTop">@dimen/content_min_margin</item>
+        <item name="android:paddingBottom">@dimen/content_min_margin</item>
+    </style>
+
+    <style name="DefaultPadding">
+        <item name="android:paddingLeft">@dimen/content_start</item>
+        <item name="android:paddingRight">@dimen/content_start</item>
+        <item name="android:paddingTop">@dimen/content_min_margin</item>
+        <item name="android:paddingBottom">@dimen/content_min_margin</item>
+    </style>
+
+    <style name="TextViewV2" parent="DefaultPadding">
+        <item name="android:background">@color/cc_brand_color</item>
+        <item name="android:textColor">@color/cc_core_bg</item>
+    </style>
+
+    <style name="TileButton">
+        <item name="android:minHeight">32dp</item>
+        <item name="android:minWidth">32dp</item>
+    </style>
+
+    <style name="DetailDrawerPulldown">
+        <item name="even_row_color">@color/cc_brand_bg</item>
+        <item name="odd_row_color">@color/drawer_pulldown_odd_row_color</item>
+    </style>
+
+    <style name="ScreenPinnedButtonBase">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/cc_attention_positive_bg</item>
+        <item name="android:drawableRight">@drawable/icon_chevron_right_attnpos</item>
+        <item name="android:textColor">@color/cc_attention_positive_text</item>
+        <item name="android:gravity">left|end|center_vertical</item>
+        <item name="android:paddingLeft">@dimen/content_min_margin</item>
+        <item name="android:paddingRight">@dimen/content_min_margin</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="ScreenPinnedButton" parent="ScreenPinnedButtonBase">
+        <item name="android:drawableRight">@drawable/icon_chevron_right_attnpos</item>
+    </style>
+
+    <style name="ScreenPinnedButtonNeutralBase" parent="@style/ScreenPinnedButton">
+        <item name="android:background">@color/cc_light_cool_accent_bg</item>
+        <item name="android:textColor">@color/cc_light_cool_accent_text</item>
+        <item name="android:drawableRight">@drawable/icon_chevron_right_brand</item>
+    </style>
+
+    <style name="ScreenPinnedButtonNeutral" parent="ScreenPinnedButtonNeutralBase">
+        <item name="android:drawableRight">@drawable/icon_chevron_right_brand</item>
+    </style>
+
+    <style name="PromptedUpdateButtonBase">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/standard_spacer_double</item>
+        <item name="android:layout_marginRight">@dimen/standard_spacer_double</item>
+        <item name="android:layout_marginBottom">@dimen/standard_spacer_double</item>
+        <item name="android:textColor">@color/cc_neutral_bg</item>
+        <item name="android:padding">@dimen/standard_spacer</item>
+    </style>
+
+    <style name="PromptedUpdateButtonUpdate" parent="PromptedUpdateButtonBase">
+        <item name="android:background">@color/solid_green</item>
+        <item name="android:textSize">@dimen/font_size_xlargest</item>
+    </style>
+
+    <style name="PromptedUpdateButtonUpdateLater" parent="PromptedUpdateButtonBase">
+        <item name="android:background">@color/cc_brand_color</item>
+        <item name="android:textSize">@dimen/font_size_xlarge</item>
+        <item name="android:paddingLeft">@dimen/standard_spacer_large</item>
+        <item name="android:paddingRight">@dimen/standard_spacer_large</item>
+    </style>
+
+
+    <color name="login_edit_text_color">@color/cc_core_text</color>
+    <color name="login_edit_text_color_error">@color/cc_attention_negative_color</color>
+</resources>

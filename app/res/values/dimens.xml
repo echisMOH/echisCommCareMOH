@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text sizes -->
+    <dimen name="text_smaller">9dp</dimen>
+    <dimen name="text_small">14dp</dimen>
+    <dimen name="text_medium">18dp</dimen>
+    <dimen name="text_large">21dp</dimen>
+
+    <!-- Miscellaneous -->
+
+    <dimen name="title_round_bleed">-12dp</dimen>
+    <dimen name="title_round_depth">12dp</dimen>
+    <dimen name="title_round_border_width">2dp</dimen>
+
+    <dimen name="title_padding">10dp</dimen>
+    <dimen name="title_paddingLeft">20dp</dimen>
+    <dimen name="tab_gradient_radius">300dp</dimen>
+
+    <dimen name="spacer_small">5dp</dimen>
+    <dimen name="standard_spacer_half">4dp</dimen>
+    <dimen name="standard_spacer">8dp</dimen>
+    <dimen name="standard_spacer_double">16dp</dimen>
+    <dimen name="standard_spacer_large">24dp</dimen>
+    <dimen name="standard_title_margin_bottom">20dp</dimen>
+    <dimen name="min_button_height">52dp</dimen>
+    <dimen name="spacer">10dp</dimen>
+
+    <dimen name="action_icon_size">60dp</dimen>
+
+    <dimen name="list_text_height">48dp</dimen>
+    <dimen name="list_audio_height">52dp</dimen>
+    <dimen name="list_content_with_space_for_badge">58dp</dimen>
+    <dimen name="list_icon_size">48dp</dimen>
+    <dimen name="list_icon_bounding_dimen">60dp</dimen>
+    <dimen name="list_grid_bounding_dimension">180dp</dimen>
+
+    <dimen name="numeric_badge_width_for_list">20dp</dimen>
+    <dimen name="numeric_badge_font_size_list">10dp</dimen>
+
+    <dimen name="menu_grid_icon_size">120dp</dimen>
+    <dimen name="menu_grid_icon_size_with_badge">136dp</dimen>
+    <dimen name="numeric_badge_font_size_grid">15dp</dimen>
+    <dimen name="numeric_badge_width_for_grid">30dp</dimen>
+
+    <dimen name="widget_button_padding">10dp</dimen>
+
+    <dimen name="login_box_margins">30dp</dimen>
+
+    <dimen name="button_elevation">5dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_medium">15sp</dimen>
+    <dimen name="font_size_large">18sp</dimen>
+    <dimen name="font_size_xlarge">21sp</dimen>
+    <dimen name="font_size_xlarger">23sp</dimen>
+    <dimen name="font_size_xlargest">28sp</dimen>
+    <dimen name="font_size_40">40sp</dimen>
+
+    <dimen name="font_size_dp_small">12dp</dimen>
+    <dimen name="font_size_dp_medium">15dp</dimen>
+    <dimen name="font_size_dp_large">18dp</dimen>
+    <dimen name="font_size_dp_xlarge">21dp</dimen>
+    <dimen name="font_size_dp_xlarger">23dp</dimen>
+    <dimen name="font_size_dp_xlargest">28dp</dimen>
+
+    <dimen name="cell_padding_vertical">8dp</dimen>
+    <dimen name="cell_padding_horizontal">8dp</dimen>
+    <dimen name="row_padding_vertical">8dp</dimen>
+    <dimen name="row_padding_horizontal">8dp</dimen>
+
+    <dimen name="graph_x_margin">40dp</dimen>
+    <dimen name="graph_y_margin">5dp</dimen>
+    <dimen name="graph_text_margin">35dp</dimen>
+
+    <!-- Form Entry -->
+
+    <dimen name="question_widget_side_padding">16dp</dimen>
+    <dimen name="question_widget_side_inv">-16dp</dimen>
+
+    <!--  Text sizes -->
+
+    <dimen name="text_larger">28dp</dimen>
+    <dimen name="text_largest">40dp</dimen>
+
+    <!-- Menu list row dimensions -->
+
+    <dimen name="content_min_margin">16dp</dimen>
+
+    <dimen name="entity_item_image_margins">8dp</dimen>
+
+    <dimen name="content_start">8dp</dimen>
+    <dimen name="content_start_quadruple">32dp</dimen>
+
+    <dimen name="help_text_padding">16dp</dimen>
+
+    <!-- New progressbar dimensions -->
+    <dimen name="new_progressbar_minheight">56dp</dimen>
+    <dimen name="new_progressbar_button_minheight">48dp</dimen>
+    <dimen name="new_progressbar_button_minwidth">32dp</dimen>
+    <dimen name="new_progressbar_button_padding">24dp</dimen>
+
+    <dimen name="submission_progressbar_height">10dp</dimen>
+
+    <dimen name="form_label_padding">8dp</dimen>
+
+    <dimen name="entity_select_divider_left_inset">120dp</dimen>
+
+    <dimen name="min_button_padding">20dp</dimen>
+
+    <!--Custom Preferences Dialog-->
+    <dimen name="pref_dialog_margin_top">48dp</dimen>
+    <dimen name="pref_dialog_margin_bottom">48dp</dimen>
+    <dimen name="pref_dialog_content_padding">5dp</dimen>
+    <dimen name="pref_dialog_message_margin_bottom">48dp</dimen>
+
+    <!--Question Widget-->
+    <dimen name="edit_text_question_widget_compact_width">80dp</dimen>
+    <dimen name="edit_text_question_widget_padding_horizontal">8dp</dimen>
+
+    <!--Big Layout Button Dimensions-->
+    <!-- Should be font medium SP x 4, roughly -->
+    <dimen name="rectangle_button_height">60sp</dimen>
+
+
+    <!--action button on center of screen-->
+    <dimen name="center_button_width">180dp</dimen>
+
+    <!-- Audio button -->
+    <dimen name="audio_button_size">55dp</dimen>
+
+
+</resources>

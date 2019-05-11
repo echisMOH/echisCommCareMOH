@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:enabled="true"
+        android:entries="@array/frequency_vals_labels"
+        android:entryValues="@array/frequency_vals"
+        android:key="cc-autoup-freq"
+        android:title="Auto Update Frequency"/>
+    <org.commcare.preferences.FilePreference
+        android:defaultValue=""
+        android:enabled="true"
+        android:key="print-doc-location"
+        android:title="Set Print Template"
+        app:file_type="html"/>
+    <ListPreference
+        android:enabled="true"
+        android:entries="@array/pref_enabled_labels"
+        android:entryValues="@array/pref_enabled_vals"
+        android:key="cc-grid-menus"
+        android:title="Grid Menus Enabled"/>
+    <ListPreference
+        android:defaultValue="no"
+        android:enabled="true"
+        android:entries="@array/pref_enabled_labels"
+        android:entryValues="@array/pref_enabled_vals"
+        android:key="cc-fuzzy-search-enabled"
+        android:title="Fuzzy Search Matches"/>
+    <ListPreference
+        android:enabled="true"
+        android:defaultValue="release"
+        android:entries="@array/update_target_labels"
+        android:entryValues="@array/update_target_vals"
+        android:key="cc-update-target"
+        android:title="Update Options"/>
+    <ListPreference
+        android:enabled="true"
+        android:defaultValue="always_hidden"
+        android:entries="@array/pref_password_show_options_labels"
+        android:entryValues="@array/pref_password_show_options"
+        android:key="cc-password-entry-show-behavior"
+        android:title="Configure Password Display"/>
+    <Preference
+        android:key="disable-analytics-button"/>
+    <Preference
+        android:key="developer-settings-button"/>
+</PreferenceScreen>
